@@ -1,0 +1,39 @@
+body{
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    background-color: rgb(192 239 176);
+    padding: 15px;
+    border-radius: 15px;
+    width: 210px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+#etanol, #gasolina{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.button{
+    margin: 10px 20px;
+    border: none;
+    background-color: rgb(112 156 100);
+    padding: 8px 65px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.button:hover{
+    background-color: rgb(95, 136, 90);
+}
+.title{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(0, 66, 0);
+    margin: 0px;
+}

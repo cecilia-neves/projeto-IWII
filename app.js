@@ -9,15 +9,15 @@ function calcular() {
     let resultado = etanol / gasolina; // Calcular o valor
 
     if (etanol <= 0.70*gasolina) {
-        document.getElementById('status').src="./img/tanqueEtanol.png";
+        document.getElementById('status').src="tanqueEtanol.png";
     } else {
-        document.getElementById('status').src="./img/tanqueGasolina.png";
+        document.getElementById('status').src="tanqueGasolina.png";
     }
     document.getElementById("mensagem").innerHTML= `Resultado: ${resultado.toFixed(2)}`;
 }
 // Função Limpar
 function limpar() {
-    document.getElementById('status').src='./img/tanque.png';
+    document.getElementById('status').src='tanque.png';
     document.getElementById('mensagem').innerHTML='';
     document.getElementById('etanol').value='';
     document.getElementById('gasolina').value='';
